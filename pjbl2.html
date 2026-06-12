@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil & Formulir</title>
+    <link rel="stylesheet" href="css2.css">
+</head>
+<body>
+
+    
+    <nav class="navbar">
+        <div class="logo">Menu Utama</div>
+        <div class="menu-buttons">
+            <a href="#menu-profil" class="tombol-anchor">Menu 1: Profil Saya</a>
+            <a href="#menu-form" class="tombol-anchor">Menu 2: Form Lengkap</a>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div id="menu-profil" class="kotak-profil">
+            <div class="foto-profil">
+                <img src="apip.jpg" alt="Foto Profil">
+            </div>
+            <h2>AFIF NUR HAQQI</h2>
+            <div id="notif-atas"></div>
+            <p class="pekerjaan">Web Developer</p>
+            <hr>
+            <p class="bio">
+                Halo, perkenalkan nama saya Afif Nur Haqqi. Saya adalah siswa kelas X PPLG 1 dengan nomor absen 02. 
+                Saya memiliki hobi bermain voli karena olahraga ini melatih kerja sama, ketangkasan, dan semangat. 
+                Saya memiliki dua cita-cita, yaitu menjadi peternak muda yang sukses dan pemain voli profesional. 
+                Saya ingin terus belajar, berlatih, dan mengembangkan kemampuan agar dapat mencapai tujuan tersebut di masa depan.
+            
+        </div>
+        
+<div class="kotak-projek">
+    <h2>Projek Saya</h2>
+
+    <div class="list-projek">
+
+        <div class="card-projek">
+            <h3>aplikasi kasir</h3>
+            <p>
+                membuat aplikasi kasir sederhana untuk toko menggunakan python dan Tkinter
+            </p>
+        </div>
+
+        <div class="card-projek">
+            <h3>konversi suhu</h3>
+            <p>
+                membuat perhitungan suhu memakai python dengan library Custom Tkinter
+            </p>
+        </div>
+
+        <div class="card-projek">
+            <h3>membuat game</h3>
+            <p>
+                membuat game yang bisa menghasilkan point dan nyawa berkurang jika menabrak suatu benda menggunakan scratch yang menarik
+            </p>
+        </div>
+
+    </div>
+</div>
+        
+        <div id="menu-form" class="kotak-form">
+            <h2>Formulir Data Diri</h2>
+            <form action="#" method="POST">
+               
+                <div class="grup-form">
+                    <label for="nama">Nama Lengkap</label>
+                    <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
+                </div>
+
+
+                <div class="grup-form">
+                    <label for="alamat">Alamat</label>
+                    <input type="text" id="alamat" name="alamat" placeholder="Masukkan alamat rumah" required>
+                </div>
+
+
+                <div class="grup-form-row">
+                    <div class="grup-form">
+                        <label for="tempat_lahir">Tempat Lahir</label>
+                        <input type="text" id="tempat_lahir" name="tempat_lahir" placeholder="Kota lahir" required>
+                    </div>
+                    <div class="grup-form">
+                        <label for="tanggal_lahir">Tanggal Lahir</label>
+                        <input type="date" id="tanggal_lahir" name="tanggal_lahir" required>
+                    </div>
+                </div>
+
+
+                <div class="grup-form-row">
+                    <div class="grup-form">
+                        <label for="no_hp">No. HP</label>
+                        <input type="tel" id="no_hp" name="no_hp" placeholder="0812xxxx" required>
+                    </div>
+                    <div class="grup-form">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="email@anda.com" required>
+                    </div>
+                </div>
+
+
+                <div class="grup-form">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="******" required>
+                </div>
+
+
+                <div class="grup-form-row">
+                    <div class="grup-form">
+                        <label for="kelamin">Jenis Kelamin</label>
+                        <select id="kelamin" name="kelamin" required>
+                            <option value="">Pilih</option>
+                            <option value="laki">Laki-Laki</option>
+                            <option value="perempuan">Perempuan</option>
+                        </select>
+                    </div>
+                    <div class="grup-form">
+                        <label for="agama">Agama</label>
+                        <select id="agama" name="agama" required>
+                            <option value="">Pilih</option>
+                            <option value="islam">Islam</option>
+                            <option value="kristen">Kristen</option>
+                            <option value="katolik">Katolik</option>
+                            <option value="hindu">Hindu</option>
+                            <option value="budha">Budha</option>
+                            <option value="khonghucu">Khonghucu</option>
+                        </select>
+                    </div>
+                </div>
+
+
+                <div class="grup-form">
+                    <label for="hobi">Hobi</label>
+                    <input type="text" id="hobi" name="hobi" placeholder="Contoh: Coding, Travelling, Masak">
+                </div>
+
+
+                <button type="submit" class="tombol-kirim">Kirim Data</button>
+            </form>
+            <div id="notif-bawah"></div>
+        </div>
+
+
+    </div>
+    <script src="js2.js"></script>
+<div class="instagram">
+    <a href="https://www.instagram.com/jeruksankis_?igsh=dTVtZ3Ewbmg1dnlr" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" 
+             alt="Instagram">
+        <span>@jeruksankis_</span>
+    </a>
+</div>
+</body>
+</html>
